@@ -11,3 +11,9 @@ header {
 		padding-top: 100px;
 	}
 }
+
+@media only screen and (max-width: 768px) {
+	.head-main {
+		padding-top: 100px !important;
+	}
+}
