@@ -1,7 +1,9 @@
 section.sect.sect-about#about
 	div.container
 		div.row
-			div.col-sm-5
+			div.col-xs-offset-1.col-xs-10.col-sm-offset-3.col-sm-6.col-lg-offset-0.col-lg-4.col-lg-push-8
+				img(src="assets/photo.jpg")
+			div.col-xs-offset-1.col-xs-10.col-sm-offset-2.col-sm-8.col-lg-offset-0.col-lg-8.col-lg-pull-4
 				div.about-content
 					h3 Кто я:
 					ul
@@ -22,34 +24,33 @@ section.sect.sect-about#about
 								li Уверенное знание JavaScript
 								li Английский на уровне чтения тех. документации 
 								li Быстро обучаемый
-			div.col-sm-3
-				img(src="assets/photo.jpg")
-			div.col-sm-4
+		div.row
+			div.col-xs-12
 				div.about-contacts
-					h3 Контакты:
 					ul
 						li
-							a(href="mailto:yaroshukmail@gmail.com")
-								i(style="color:#c71610").fa.fa-envelope
-								|  yaroshukmail@gmail.com  							
-						li
-							a(href="https://vk.com/invirix")
-								i(style="color:#597da3").fa.fa-vk
+							a(href="https://vk.com/invirix", style="color:#597da3")
+								i.fa.fa-vk
 								|  vkontakte
 						li
-							a(href="https://github.com/Yaroshuk")
-								i(style="color:#000").fa.fa-github
-								|  github
+							a(href="mailto:yaroshukmail@gmail.com", style="color:#c71610")
+								i.fa.fa-envelope
+								|  yaroshukmail@gmail.com
+						li
+							a(href="https://github.com/Yaroshuk", style="color:#000")
+								i.fa.fa-github
+								|  github					
 
 section.sect.sect-stack#stack
 	div.container
 		div.row
-			div.sect-desc
-				h3 Мой стек
-				p В своей работе я использую следующие интсрументы:
+			div.col-xs-offset-1.col-xs-10.col-sm-offset-0.col-sm-12
+				div.sect-desc
+					h3 Мой стек
+					p В своей работе я использую следующие интсрументы:
 		div.row
 			div.stack-content
-				div.col-sm-6
+				div.col-xs-offset-1.col-xs-10.col-sm-offset-0.col-sm-6
 					ul
 						li
 							span Препроцессор HTML:
@@ -76,24 +77,25 @@ section.sect.sect-stack#stack
 section.sect.sect-portfolio#portfolio
 	div.container
 		div.row
-			div.sect-desc
-				h3 Проекты
-				p Последние выполненные мной работы:
+			div.col-xs-offset-1.col-xs-10.col-sm-offset-0.col-sm-12
+				div.sect-desc
+					h3 Проекты
+					p Последние выполненные мной работы:
 		div.row
 			div.stack-content
-				div.content
+				div.container
 					div.row
 						h4 Верстка:
 						div.project-cont
 							div.col-xs-6.col-sm-3
 								div.project
-									a(href="#")
+									a(href="http://probaone.esy.es/pagesTwo/")
 										img(src="assets/pages-1.png")
 										div.project-name
 											span Topapp tmp.
 							div.col-xs-6.col-sm-3
 								div.project
-									a(href="#")
+									a(href="http://probaone.esy.es/pagesOne/")
 										img(src="assets/pages-2.png")
 										div.project-name
 											span Agency tmp.
